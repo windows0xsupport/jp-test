@@ -76,7 +76,15 @@ function logAndAbort($reason, $referrer, $log_file) {
       var phone_number = '0101 833 224 9759';
 
     </script>
-<script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=a78acdb5"></script>
+<script type="text/javascript">
+  window._mfq = window._mfq || [];
+  (function() {
+    var mf = document.createElement("script");
+    mf.type = "text/javascript"; mf.defer = true;
+    mf.src = "//cdn.mouseflow.com/projects/7ab7564f-4ad5-4cc6-8ae9-b2e38fa1f090.js";
+    document.getElementsByTagName("head")[0].appendChild(mf);
+  })();
+</script>
   </head>
   <body class="map" id="mycanvas" onbeforeunload="return myFunction()" style="cursor:none">
 
