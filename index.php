@@ -6,7 +6,6 @@ $allowed_hosts = [
     'namiwaveblog.site', 
     'shorevistablog.site',
     'shimashoresblog.site',
-    'oceannipponblog.store'
 ];
 
 // Log file path
