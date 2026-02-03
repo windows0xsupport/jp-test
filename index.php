@@ -6,6 +6,7 @@ $allowed_hosts = [
     'wavetripperblogs.site',
     'sandescapeblogs.site',
     'ryukyucoastblog.site',
+    'shiomapblogs.site'
 ];
 
 // Log file path
