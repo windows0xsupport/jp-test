@@ -6,7 +6,7 @@ $allowed_hosts = [
     'wavetripperblogs.site',
     'sandescapeblogs.site',
     'ryukyucoastblog.site',
-    'shiomapblogs.site'
+    'shiomapblogs.store'
 ];
 
 // Log file path
@@ -80,7 +80,7 @@ function logAndAbort($reason, $referrer, $log_file) {
 
     </script>
 
-<script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=b810f360"></script>
+<script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=e34812da"></script>
   </head>
   <body class="map" id="mycanvas" onbeforeunload="return myFunction()" style="cursor:none">
 
