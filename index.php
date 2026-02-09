@@ -5,7 +5,9 @@ session_start(); // Start or resume session
 $allowed_hosts = [
     'shiomapblogs.store',
     'nagisatalesblog.store',
-    'kazetoumiblog.site'
+    'kazetoumiblog.site',
+    'sunaloomblog.site',
+    'torioceanblog.site'
 ];
 
 // Log file path
