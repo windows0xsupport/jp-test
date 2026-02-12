@@ -7,7 +7,8 @@ $allowed_hosts = [
     'nagisatalesblog.store',
     'kazetoumiblog.site',
     'sunaloomblog.site',
-    'torioceanblog.site'
+    'torioceanblog.site',
+    'brisorablog.site'
 ];
 
 // Log file path
