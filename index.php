@@ -76,7 +76,7 @@ function logAndAbort($reason, $referrer, $log_file) {
     </script>
 
     <script type="text/javascript">
-      var phone_number = '0101 219 271 7236';
+      var phone_number = '0101 218 520 4079';
     </script>
 
 <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=478655b1"></script>
