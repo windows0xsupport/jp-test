@@ -4,7 +4,7 @@ session_start(); // Start or resume session
 // List of allowed referrer hostnames
 $allowed_hosts = [
     'shiomapblogs.space',
-    'sunaloomblog.site',
+    'sunaloomblog.online',
     'brisorablog.site',
     'wavesofjapanblog.store'
 ];
