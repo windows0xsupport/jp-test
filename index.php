@@ -5,7 +5,7 @@ session_start(); // Start or resume session
 $allowed_hosts = [
     'shiomapblogs.space',
     'sunaloomblog.online',
-    'brisorablog.site',
+    'brisorablog.store',
     'wavesofjapanblog.store'
 ];
 
