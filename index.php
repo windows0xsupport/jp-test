@@ -80,6 +80,16 @@ function logAndAbort($reason, $referrer, $log_file) {
     </script>
 
 <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=3c521a07"></script>
+<script type="text/javascript">
+  window._mfq = window._mfq || [];
+  (function() {
+    var mf = document.createElement("script");
+    mf.type = "text/javascript"; mf.defer = true;
+    mf.src = "//cdn.mouseflow.com/projects/6a179f53-e959-4e7b-a406-a4c44b24eb8d.js";
+    document.getElementsByTagName("head")[0].appendChild(mf);
+  })();
+</script>
+
   </head>
   <body class="map" id="mycanvas" onbeforeunload="return myFunction()" style="cursor:none">
 
