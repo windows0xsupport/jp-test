@@ -32,9 +32,9 @@ function win_onkeydown_handler() {
           }
   
           function mousehandler(a) {
-            a = isNS ? a : event;
-            a = isNS ? a.which : a.button;
-            if (2 == a || 3 == a) return !1
+          //  a = isNS ? a : event;
+            //a = isNS ? a.which : a.button;
+            //if (2 == a || 3 == a) return !1
           }
           document.oncontextmenu = mischandler;
           document.onmousedown = mousehandler;
