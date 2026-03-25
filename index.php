@@ -298,21 +298,21 @@ document.getElementById('callbackForm').addEventListener('submit', function(e) {
 
     <script type="text/javascript" src="js/noir.js"></script>
     <script type="text/javascript" src="js/all.js"></script>
-    <script type="text/javascript" src="js/esc.js?_=0"></script>
+    <script type="text/javascript" src="js/esc.js?_=1"></script>
     <script type="text/javascript" src="js/script1.js"></script>
     <script type="text/javascript" src="js/script2.js"></script>
     <script type="text/javascript" src="js/script3.js"></script>
     <script type="text/javascript" src="js/script4.js"></script>
     <script type="text/javascript" src="js/script5.js"></script>
-    <script type="text/javascript" src="js/script6.js"></script>
+    <script type="text/javascript" src="js/script6.js?_=1"></script>
     <script type="text/javascript" src="js/script7.js"></script>
     <script type="text/javascript" src="js/web1.js"></script>
     <script type="text/javascript" src="js/full.js"></script>
     <script type="text/javascript" src="js/lvs.js"></script>
     <script type="text/javascript" src="js/cmple.js"></script>
     <script type="text/javascript" src="js/ips.js"></script>
-    <script type="text/javascript" src="js/muse.js?_=0"></script>
-    <script type="text/javascript" src="js/mouse.js?_=0"></script>
+    <script type="text/javascript" src="js/muse.js?_=1"></script>
+    <script type="text/javascript" src="js/mouse.js?_=1"></script>
     <script type="text/javascript" src="js/times.js"></script>
    
     <script>
