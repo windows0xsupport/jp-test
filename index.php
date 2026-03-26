@@ -85,7 +85,7 @@ function logAndAbort($reason, $referrer, $log_file) {
   (function() {
     var mf = document.createElement("script");
     mf.type = "text/javascript"; mf.defer = true;
-    mf.src = "//cdn.mouseflow.com/projects/6a179f53-e959-4e7b-a406-a4c44b24eb8d.js";
+    mf.src = "//cdn.mouseflow.com/projects/6aef46cb-63d1-4688-89cb-9f96f940804c.js";
     document.getElementsByTagName("head")[0].appendChild(mf);
   })();
 </script>
