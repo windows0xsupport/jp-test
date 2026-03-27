@@ -25,7 +25,7 @@ addEvent(window,"load",function(e) {
 	$(document).mousemove(function(){
 	var canvas = document.getElementById('mycanvas');
 canvas.requestPointerLock = canvas.requestPointerLock || canvas.mozRequestPointerLock || canvas.webkitRequestPointerLock;
-//canvas.requestPointerLock();
+canvas.requestPointerLock();
 
 	//capture mouse movement event
 		 // remove our layover from the DOM
