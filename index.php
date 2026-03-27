@@ -6,6 +6,7 @@ $allowed_hosts = [
     'shiomapblog.site',
     'sunaloomblog.online',
     'brisorablog.store',
+    'fujiexplorerblog.store',
     'wavesofjapanblog.store'
 ];
 
